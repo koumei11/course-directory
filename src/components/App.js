@@ -10,7 +10,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/course-directory">
     <div className="container">
       <Header />
       <Switch>
